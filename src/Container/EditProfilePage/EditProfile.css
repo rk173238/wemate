@@ -1,0 +1,38 @@
+.root{
+width: 80%;
+margin-left: 10% !important;
+display: flex;
+margin-top: 50px;
+}
+.divLeftSide{
+    width: 40%;
+}
+.divRightSide{
+    width: 60%;
+
+}
+
+
+
+@media only screen and (max-width:770px){
+    .root{
+        display: block;
+    }
+    .divLeftSide{
+        width: 100%;
+        margin-left: 10%;
+    }
+    .divRightSide{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+.root{
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 40px 25px;
+    margin-top: 20px;
+    display: flex;
+}
+.contentText{
+    width: 70%;
+    margin-left: 50px;
+}
+.pendingButtonsDiv{
+    width: 30%;
+    display: flex;
+}
+.pendingButton{
+    height: 40px;
+    margin-top: 30px !important;
+    /* margin-top: 30px; */
+    margin-left: 30% !important;
+}
+.rejectButton{
+    height: 40px;
+    margin-top: 30px !important;
+    /* margin-top: 30px; */
+    margin-left: 10% !important;
+}
+
+
+
+
+@media only screen and (max-width:770px){
+    .root{
+        margin-left: 3%;
+        width: 94%;
+    }
+    .contentText{
+        width: 60%;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .pendingButtonsDiv{
+        display: block;
+        width: 40%;
+    }
+    .pendingButton{
+        height: 40px ;
+        margin-top: 5px !important;
+        margin-left: '30%';
+    }
+    .rejectButton{
+        height: 40px;
+        margin-top: 10px !important;
+        /* margin-top: 30px; */
+        margin-left: 30% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

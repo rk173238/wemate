@@ -1,0 +1,17 @@
+.root{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    justify-content: space-around;
+}
+
+/* display:'flex'width:'60%',marginLeft:'20%',marginTop:50,justifyContent:'space-between' */
+@media only screen and (max-width:600px){
+    .root{
+        display:block;
+        width: 100%;
+        margin-left: 50px !important;
+        left: 30px !important;
+
+    }
+}
